@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website development</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="images/logo.jfif"></a>
+        <div class="nav-links" id="navlinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">BRANDS</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+
+    </nav>
+<div class="text-box">
+    <h1>World's Best Collections</h1>
+    <p>Make the world colourful with our Fashion World</p>
+    <a href="" class="hero-btn">visit us to know more</a>
+</div>
+    
+</section>
+   
+
+<section class="brands">
+    <h1>Brands we have</h1>
+    
+    <div class="row">
+        <div class="brands-col">
+            <img src="images/adidas.jfif">
+        </div>
+        <div class="brands-col">
+            <img src="images/allen.jfif">
+        </div>
+        <div class="brands-col">
+            <img src="images/olivia.jfif">
+        </div>
+    </div>
+    
+</section>
+    
+<section class="aboutus">
+    <div class="about" id="about">
+     <h1 class="title">ABOUT US</h1>
+        <P> Fashion World is an exclusive plateform offering a range of finest of indian products which adidas,allen,olivia.Explore our new collection.Get the latest trends ruling the chart in india.We are passionate about finding thimgs that rise above the mundance,that we think will catch your eye and arrest it. Moreove ,to bring these to you wherever you are and whwnever you feel you have the time to indulge a little.So we created a company 
+        
+        
+        </P>
+        <div class="btn"><a href="#">LEARN MORE</a></div>
+        <p>Top Qualities<br/>
+           luxurious feel<br/>
+            comfortable<br/>
+            affordable cost<br/>
+            Various varities<br/>
+        
+          </p>
+    </div>
+    
+    
+</section>
+    
+    
+    
+<section class="contactus">
+    <div class="contactus" id="contactus">
+        <h1 class="title">CONTACT US</h1>
+        <div class="form_wrapper">
+            <div class="form_input">
+                <input type="text" placeholder="Email">
+            
+            </div>
+        <div class="form_input">
+            <input type="text" placeholder="subject">
+            
+        </div>
+        <div class="form-input">
+            <textarea placeholder="message"></textarea>
+            
+         </div>
+            <div class="btn">
+                <a href="#">SUBMIT</a>
+            
+            
+            </div>
+        
+        
+        </div>
+    
+    
+    </div>
+    
+    
+    
+    </section>
+
+    
+<script>
+    var navlinks=document.getElementById("navlinks");
+    
+    function showMenu(){
+        navlinks.style.right="0";
+    }
+     function hideMenu(){
+        navlinks.style.right="-200px";
+    }
+    </script>
+    
+    </body>
+</html>
