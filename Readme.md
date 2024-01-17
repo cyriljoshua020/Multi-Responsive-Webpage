@@ -1,3 +1,2 @@
-# ExposysDatalab
-As a intern in exposysData lab I was assigned for a task to create a multi responsive web page.
-This is my first project towards web development.
+# Mini Project
+Develop a multi-responsive web page using HTML and CSS. Utilize media queries to ensure optimal display on various devices, such as desktops, tablets, and mobiles. This is my first project towards web development.
